@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-natural-bg: #FAF8F5;
+  --color-natural-bg-alt: #FCFAF6;
+  --color-natural-card: #FFFFFF;
+  --color-natural-border: #E8E2D9;
+  --color-natural-moss: #5A6D5D;
+  --color-natural-moss-dark: #4A5A4D;
+  --color-natural-moss-light: #5A6D5D0D;
+  --color-natural-dark: #2D3A30;
+  --color-natural-text: #344137;
+  --color-natural-muted: #6B705C;
+  --color-natural-caramel: #D4A373;
+  --color-natural-caramel-dark: #A67C52;
+  --color-natural-sage: #E9EDC9;
+  --color-natural-sage-light: #FEFAE0;
+  --color-natural-earth: #CCD5AE;
+}
+
+/* Custom Scroll Smoothness & Antialiasing */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #344137; /* Natural Tones main text color */
+  overflow-x: hidden;
+}
+
+/* Selection Highlight */
+::selection {
+  background-color: #E9EDC9;
+  color: #2D3A30;
+}
+
+/* Hide scrollbar for Chrome/Safari of testimonial drags */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

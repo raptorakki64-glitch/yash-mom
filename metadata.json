@@ -1,0 +1,6 @@
+{
+  "name": "Burgeon Montessori",
+  "description": "An elegant, premium single-page web experiences for Burgeon Montessori House of Children with refined Framer Motion interactions, smooth scrolling, and parent-friendly UI/UX polish.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
